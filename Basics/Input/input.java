@@ -14,6 +14,6 @@ public class input {
         System.out.print("Enter your height in cm: ");
         float height = sc.nextFloat(); // takes next float input
         System.out.println(full_name + "'s height is " + height + "cm.");
-
+        sc.close();
     }
 }
